@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "${APP_PORT}:${APP_PORT}"
+    depends_on:
+      - redis
+    env_file:
+      - .env   # Load environment variables from .env file
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: npm run dev
+
+  redis:
+    image: redis:alpine
+    container_name: redis-server
+    ports:
+      - "${REDIS_PORT}:${REDIS_PORT}"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  redis_data:
