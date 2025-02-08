@@ -1,6 +1,6 @@
 # Currency Convertor
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to store data [Redux](https://redux.js.org/).
+Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library)
 
 Used [React-Bootstrap](https://react-bootstrap.netlify.app/) for front-end designs
 
