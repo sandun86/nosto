@@ -1,6 +1,7 @@
-# Please go to every project; there are separate README files for each one. Thank you.!
+Please go to every project; each one has separate README files. Thank you.!
 
 
 
-### Architecture of the Currency Converter App
-![currency-converter](https://github.com/user-attachments/assets/d1c8bf44-da5b-45f1-ba70-301e46c6d5d7)
+##### Architecture of the Currency Converter App
+
+![currency](https://github.com/user-attachments/assets/af7272e0-a4de-4d59-9bcd-c31fc8af77c3)
